@@ -5,6 +5,7 @@ host_url:
 website_id:
   type: string
   default: ''
+  description: Comma separated list of Tracker IDs
 exclude_groups:
   type: string
   default: ''
