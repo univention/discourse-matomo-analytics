@@ -21,7 +21,8 @@
       _paq.push(['setTrackerUrl', u+'piwik.php']);
       _paq.push(['setSiteId', piwik_ids[0]]);
       
-      for each (var p_id in piwik_ids.slice(1)) {
+      for (var i = 1; i < piwik_ids.length; i++) {
+        var p_id = piwik_ids[i];
         _paq.push(['addTracker', piwikUrl = u+'piwik.php', p_id]);
       }
       
