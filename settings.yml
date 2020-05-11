@@ -21,4 +21,4 @@ subdomain_tracking:
 extend_content_security_policy:
   type: list
   default: ''
-  description: Host URL with http:// or https:// to whitelist script source (format: "script_src: https://myHost.URL/piwik.js")
+  description: 'Host URL with http:// or https:// to whitelist script source (format: "script_src: https://myHost.URL/piwik.js")'
